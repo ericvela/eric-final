@@ -1,0 +1,16 @@
+<h1>Original Members</h1>
+<div class="row">
+{% for member in members %}
+
+<div class="col-md-3"><a href="{{member.slug}}.html" class="card-link">
+<div class="card">
+  <img class="card-img-top" src="../assets/img/members/{{member.imagebw}}" alt="{{member.name}}">
+  <div class="card-body">
+    <h5 class="card-title">{{member.name}}</h5>
+    <p class="card-text">{{member.instruments}}</p>
+</a>
+  </div>
+</div>
+</div>
+{%endfor%}
+</div>
