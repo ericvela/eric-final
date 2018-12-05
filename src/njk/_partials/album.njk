@@ -1,10 +1,10 @@
 <h1>Discography</h1>
 <div class= "row">
     {%for disc in discography%}
-  <div class="col-md-4">
+  <div class="col-sm-6 col-md-4">
       <ul class="list-unstyled">
         <li class="albums">
-    <img class="album-image" src=assets/img/discs/{{disc.image}} alt="Album Cover">
+    <img class="img-fluid album-image" src=assets/img/discs/{{disc.image}} alt="Album Cover">
     <div class="media-body">
       <h3 class="album-title">{{disc.title}}</h3>
       <h3 class="album-year">{{disc.year}}</h3>

@@ -3,9 +3,8 @@
 
 {% block content %}
 <article class="container">
-  <h1> {{members.name}}</h1>
   <div class="row">
-    <div class="col-sm-4 info">
+    <div class="col-sm-6 col-md-4 info">
 
       <img class = "img-fluid" src="assets/img/members/{{members.image}}" alt= "{{members.name}}"/>
       <h3>{{members.name}}</h3>
@@ -25,7 +24,9 @@
 
         
     </div>
-    <div class="col-sm-8 biography">
+    
+    <div class="col-sm-6 col-md-8 biography">
+     <h1> {{members.name}}</h1>
       {{members.text| safe}}
 
 

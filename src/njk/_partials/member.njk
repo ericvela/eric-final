@@ -2,9 +2,9 @@
 <div class="row">
 {% for member in members %}
 
-<div class="col-sm-6-lg-3"><a href="{{member.slug}}.html" class="card-link">
+<div class="col-sm-6 col-md-3"><a href="{{member.slug}}.html" class="card-link">
 <div class="card">
-  <img class="card-img-top" src="../assets/img/members/{{member.imagebw}}" alt="{{member.name}}">
+  <img class="card-img-top" src="assets/img/members/{{member.imagebw}}" alt="{{member.name}}">
   <div class="card-body">
     <h5 class="card-title">{{member.name}}</h5>
     <p class="card-text">{{member.instruments}}</p>

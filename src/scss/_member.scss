@@ -1,18 +1,18 @@
 .card {
-    margin-bottom: 16px;
+    margin-bottom: 40px;
     width: 16rem;
     margin-right: 20px;
-    background-color: gray;
+    background-color: white;
+    height: 500px;
 
 
     p, h5 {
         color: black;
     }
+    
+    a:hover {
+        text-decoration:underline;
+        color: black;
+    }
 
-}
-
-
-a:hover {
-    text-decoration:underline;
-    color: blue;
 }

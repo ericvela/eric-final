@@ -1,9 +1,10 @@
 // Custom variable overrides
 // See node_modules/bootstrap/scss/_variables.scss
 
-$body-bg: #556b8e;
+$body-bg: #8795ac;
 // $body-color: white;
-// $link-hover-color: grey;
+ $link-hover-color: grey;
+
 // $font-family-sans-serif: "Helvetica Neue";
 
 /* bootstrap */
@@ -24,6 +25,7 @@ $body-bg: #556b8e;
 @import "album";
 @import "member";
 @import "footer";
+@import "detail";
 
 p {
     font-family: 'Raleway', sans-serif;
