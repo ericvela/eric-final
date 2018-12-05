@@ -1,14 +1,15 @@
 <h1>Discography</h1>
-    <div class="col-sm-4">
-    <ul class="list-unstyled">
-      {% for disc in discography %}
-      <li class="media">
-        <img class="album fluid" src="../assets/img/discs/{{disc.image}}" alt="{{disc.title}}">
-        <div class="media-body">
-          <h5 class="mt-0 mb-1">{{disc.title}}</h5>
-          {{disc.year}}
-        </div>
-      </li>
-      {% endfor %}
-    </ul></div>
-  </div>
+<div class= "row">
+    {%for disc in discography%}
+  <div class="col-md-4">
+      <ul class="list-unstyled">
+        <li class="albums">
+    <img class="album-image" src=assets/img/discs/{{disc.image}} alt="Album Cover">
+    <div class="media-body">
+      <h3 class="album-title">{{disc.title}}</h3>
+      <h3 class="album-year">{{disc.year}}</h3>
+    </div>
+  </li>
+  </ul>
+</div>
+{%endfor%}
