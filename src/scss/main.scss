@@ -2,9 +2,9 @@
 // See node_modules/bootstrap/scss/_variables.scss
 
 $body-bg: #8795ac;
-// $body-color: white;
- $link-hover-color: grey;
-
+$body-color: white;
+$link-hover-color: grey;
+$primary-color: navy;
 // $font-family-sans-serif: "Helvetica Neue";
 
 /* bootstrap */
@@ -15,9 +15,9 @@ $body-bg: #8795ac;
 // See https://getbootstrap.com/docs/4.1/getting-started/theming/#importing
 
 // Required
-// @import "../../node_modules/bootstrap/scss/functions";
-// @import "../../node_modules/bootstrap/scss/variables";
-// @import "../../node_modules/bootstrap/scss/mixins"; 
+@import "../../node_modules/bootstrap/scss/functions";
+@import "../../node_modules/bootstrap/scss/variables";
+@import "../../node_modules/bootstrap/scss/mixins"; 
 
 // Import partials
 @import "nav";
@@ -27,12 +27,17 @@ $body-bg: #8795ac;
 @import "footer";
 @import "detail";
 
-p {
+p, dt, dd {
     font-family: 'Raleway', sans-serif;
+    color: black;
 }
 
-h1, h2, h3, h4 {
+h1, h2, h3, h4, nav{
     font-family: 'Bungee', cursive;
+}
+
+h1, h2, h3, h4, {
+    -webkit-text-stroke: 2px black;
 }
 
 
