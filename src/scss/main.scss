@@ -30,6 +30,7 @@ $primary-color: navy;
 p, dt, dd {
     font-family: 'Raleway', sans-serif;
     color: black;
+    font-size: 1.2rem;
 }
 
 h1, h2, h3, h4, nav{
@@ -40,4 +41,8 @@ h1, h2, h3, h4, {
     -webkit-text-stroke: 2px black;
 }
 
+.col-centered{
+    float: none;
+    margin: 0 auto;
+}
 
